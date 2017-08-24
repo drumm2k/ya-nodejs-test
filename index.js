@@ -115,6 +115,6 @@ window.onload = function() {
     event.preventDefault();
   });
 
-  // auto setData valid values to form
-  myForm.setData(preset);
+  // auto setData - valid values to form
+  //myForm.setData(preset);
 }
