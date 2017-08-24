@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Yandex Node.JS Test</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <form class="myform" id="myForm" action="http://localhost:1337">
+      <div class="myform__item">
+        <label class="myform__item-label" for="fio">ФИО</label>
+        <input type="text" name="fio" id="fio" required>
+      </div>
+      <div class="myform__item">
+        <label class="myform__item-label" for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <div class="myform__item">
+        <label class="myform__item-label" for="phone">Телефон</label>
+        <input type="tel" name="phone" id="phone" required>
+      </div>
+      <div class="myform__item">
+        <button class="myform__item-submit" id="submitButton" type="submit">Отправить</button>
+        </div>
+      </form>
+
+      <div class="resultcontainer" id="resultContainer"></div>
+  </body>
+</html>
