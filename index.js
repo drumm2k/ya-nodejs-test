@@ -22,7 +22,7 @@ myForm = {
     }
 
     // email check
-    var emailPattern = /([a-z0-9-.]+)@(ya.ru)|(yandex.(ru)|(ua)|(by)|(kz)|(com))/;
+    var emailPattern = /([A-Za-z0-9-.]+)@(ya.ru)|(yandex.(ru)|(ua)|(by)|(kz)|(com))/;
     if (!emailPattern.test(email.value)) {
       email.className = 'error';
       errorFields.push('email');
