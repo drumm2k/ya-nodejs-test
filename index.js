@@ -44,7 +44,7 @@ myForm = {
 
     // if errorFields have any keys set isValid false
     if (errorFields.length) isValid = false; else isValid = true;
-    return [isValid, errorFields];
+    return {isValid, errorFields};
   },
   getData: function() {
     // get all input values to array
